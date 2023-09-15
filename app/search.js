@@ -1,1 +1,1 @@
-// Basic search function implementation
+// Initialize basic search function
