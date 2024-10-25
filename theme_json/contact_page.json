@@ -1,0 +1,38 @@
+{
+    "section_name": "Contact Page",
+    "section_slug": "contact_page",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": 1,
+    "section":{
+        "title":{
+            "lable" : "Title",
+            "slug" :  "contact_page_title",
+            "text" : "Contact with us",
+            "type" : "text",
+            "placeholder" : "Please enter here..."
+        },
+        "description":{
+            "lable" : "Description",
+            "slug" :  "contact_page_description",
+            "text" : " Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.Sed porttitor lectus nibh.",
+            "type" : "textarea",
+            "placeholder" : "Please enter here..."
+        },
+        "button":{
+            "lable" : "Button",
+            "slug" :  "contact_page_button",
+            "text" : "Back to Category",
+            "type" : "text",
+            "placeholder" : "Please enter here..."
+        },
+        "image":{
+            "lable" : "Image",
+            "slug" :  "contact_page_image",
+            "text" : null,
+            "image": null,
+            "type" : "file",
+            "placeholder" : "Please select file"
+        }
+    }
+}

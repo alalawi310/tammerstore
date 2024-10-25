@@ -1,0 +1,68 @@
+{
+    "name": "codexshaper/laravel-woocommerce",
+    "description": "WooCommerce Rest API for Laravel",
+    "keywords": [
+        "woocommerce",
+        "laravel",
+        "laravel-woocommerce",
+        "woocommerce-api",
+        "woocommerce-rest-api",
+        "laravel-woocommerce-api",
+        "laravel-woocommerce-rest-api"
+    ],
+    "type": "library",
+    "require": {
+        "automattic/woocommerce": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0|^8.0|^9.3",
+        "illuminate/support": "~5.5.40|~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0|^8.0|^9.0|^10.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md Abu Ahsan Basir",
+            "email": "maab.career@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Codexshaper\\WooCommerce\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codexshaper\\WooCommerce\\WooCommerceServiceProvider"
+            ],
+            "aliases": {
+                "Attribute": "Codexshaper\\WooCommerce\\Models\\Attribute",
+                "Category": "Codexshaper\\WooCommerce\\Models\\Category",
+                "Coupon": "Codexshaper\\WooCommerce\\Models\\Coupon",
+                "Customer": "Codexshaper\\WooCommerce\\Models\\Customer",
+                "Note": "Codexshaper\\WooCommerce\\Models\\Note",
+                "Order": "Codexshaper\\WooCommerce\\Models\\Order",
+                "PaymentGateway": "Codexshaper\\WooCommerce\\Facades\\PaymentGateway",
+                "Product": "Codexshaper\\WooCommerce\\Models\\Product",
+                "Refund": "Codexshaper\\WooCommerce\\Models\\Refund",
+                "Report": "Codexshaper\\WooCommerce\\Models\\Report",
+                "Review": "Codexshaper\\WooCommerce\\Models\\Review",
+                "Setting": "Codexshaper\\WooCommerce\\Models\\Setting",
+                "ShippingMethod": "Codexshaper\\WooCommerce\\Models\\ShippingMethod",
+                "ShippingZone": "Codexshaper\\WooCommerce\\Models\\ShippingZone",
+                "ShippingZoneMethod": "Codexshaper\\WooCommerce\\Models\\ShippingZoneMethod",
+                "System": "Codexshaper\\WooCommerce\\Models\\System",
+                "Tag": "Codexshaper\\WooCommerce\\Models\\Tag",
+                "Tax": "Codexshaper\\WooCommerce\\Models\\Tax",
+                "TaxClass": "Codexshaper\\WooCommerce\\Models\\TaxClass",
+                "Term": "Codexshaper\\WooCommerce\\Models\\Term",
+                "Variation": "Codexshaper\\WooCommerce\\Models\\Variation",
+                "Webhook": "Codexshaper\\WooCommerce\\Facades\\Webhook",
+                "WooCommerce": "Codexshaper\\WooCommerce\\Facades\\WooCommerce",
+                "WooAnalytics": "Codexshaper\\WooCommerce\\Facades\\WooAnalytics",
+                "Query": "Codexshaper\\WooCommerce\\Facades\\Query"
+            }
+        }
+    }
+}

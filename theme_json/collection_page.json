@@ -1,0 +1,38 @@
+{
+    "section_name": "Collection Page",
+    "section_slug": "collection_page",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": 1,
+    "section":{
+        "title":{
+            "lable" : "Title",
+            "slug" :  "collection_page_title",
+            "text" : "Shopping cart",
+            "type" : "text",
+            "placeholder" : "Please enter here..."
+        },
+        "description":{
+            "lable" : "Description",
+            "slug" :  "collection_page_description",
+            "text" : " Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.Sed porttitor lectus nibh.",
+            "type" : "textarea",
+            "placeholder" : "Please enter here..."
+        },
+        "button":{
+            "lable" : "Button",
+            "slug" :  "collection_page_button",
+            "text" : "Back to Category",
+            "type" : "text",
+            "placeholder" : "Please enter here..."
+        },
+        "image":{
+            "lable" : "Image",
+            "slug" :  "collection_page_image",
+            "text" : null,
+            "image": null,
+            "type" : "file",
+            "placeholder" : "Please select file"
+        }
+    }
+}

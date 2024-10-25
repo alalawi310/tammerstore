@@ -1,0 +1,2 @@
+@stack('ManageDepositAmount')
+@stack('clubPointApply')

@@ -1,0 +1,55 @@
+{
+    "section_name": "Footer - Section",
+    "section_slug": "footer",
+    "unique_section_slug": "footer",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": 1,
+    "section":{
+        "description":{
+            "lable" : "Footer Section Description",
+            "slug" :  "footer_description",
+            "text" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+            "type" : "textarea",
+            "placeholder" : "Please enter here.."
+        },
+        "footer_link":{
+            "lable" : "Footer Links",
+            "slug" :  "footer_links",
+            "text" : "Footer Links",
+            "type" : "array",
+            "loop_number" : 4,
+			"social_link":["https://www.youtube.com/","https://www.facebook.com/","https://www.instagrm.com/","https://www.twitter.com/"],
+            "social_icon":[
+                {
+                    "text":"themes/grocery/assets/images/youtube.png",
+                    "image":"themes/grocery/assets/images/youtube.png"
+                },{
+                    "text":"themes/grocery/assets/images/facebook.png",
+                    "image":"themes/grocery/assets/images/facebook.png"
+                },{
+                    "text":"themes/grocery/assets/images/insta.png",
+                    "image":"themes/grocery/assets/images/insta.png"
+                },{
+                    "text":"themes/grocery/assets/images/twitter.png",
+                    "image":"themes/grocery/assets/images/twitter.png"
+                }
+            ]
+        },
+        "footer_menu_type": {
+            "lable" : "Footer Menu Type",
+            "slug" :  "footer_menu_type",
+            "text" : "footer_menu_bar",
+            "type" : "array",
+            "loop_number" : 3,
+            "footer_menu_ids":[]
+        },
+        "copy_right":{
+            "lable" : "Copy Right",
+            "slug" :  "footer_copy_right",
+            "text" : "© tammer store. All rights reserved",
+            "type" : "textarea",
+            "placeholder" : "Please enter here.."
+        }
+    }
+}

@@ -1,0 +1,141 @@
+
+
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0000008c;
+    z-index: 9999999;
+    display: flex;
+}
+
+.site-loader {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    border: 3px solid;
+    margin: auto;
+    border-color: #FFF transparent transparent #FFF;
+    -webkit-animation: rotation 1s linear infinite;
+    animation: rotation 1s linear infinite;
+}
+.site-loader:after,
+.site-loader:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 3px solid;
+    border-color: transparent var(--bs-primary) var(--bs-primary) transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-animation: rotationBack 0.5s linear infinite;
+    animation: rotationBack 0.5s linear infinite;
+    transform-origin: center center;
+}
+.theme-1 .site-loader:after {
+    border-color: transparent #0a9552 #0a9552 transparent;
+}
+.theme-2 .site-loader:after {
+    border-color: transparent #584ED2 #584ED2 transparent;
+}
+.theme-3 .site-loader:after {
+    border-color: transparent #6FD943 #6FD943 transparent;
+}
+
+.theme-4 .site-loader:after {
+    border-color: transparent #145388 #145388 transparent;
+}
+
+.theme-5 .site-loader:after {
+    border-color: transparent #B9406B #B9406B transparent;
+}
+
+.theme-6 .site-loader:after {
+    border-color: transparent #008ECC #008ECC transparent;
+}
+
+.theme-7 .site-loader:after {
+    border-color: transparent #922C88 #922C88 transparent;
+}
+
+.theme-8 .site-loader:after {
+    border-color: transparent #C0A145 #C0A145 transparent;
+}
+
+.theme-9 .site-loader:after {
+    border-color: transparent #48494B #48494B transparent;
+}
+.theme-10 .site-loader:after {
+    border-color: transparent #0C7785 #0C7785 transparent;
+}
+.custom-color .site-loader:after{
+    border-color: transparent var(--color-customColor) var(--color-customColor) transparent;
+}
+
+.site-loader:before {
+    width: 32px;
+    height: 32px;
+    border-color: #FFF transparent transparent #FFF;
+    -webkit-animation: rotation 1.5s linear infinite;
+    animation: rotation 1.5s linear infinite;
+}
+
+@-webkit-keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+
+@-webkit-keyframes rotationBack {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotationBack {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .knw_desc{
+    white-space: normal !important;
+  }
+
+  .loader-content{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    margin-top: 60px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 800;
+    font-size: 30px;
+}

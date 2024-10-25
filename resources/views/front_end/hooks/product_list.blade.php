@@ -1,0 +1,2 @@
+@stack('digitalproductslider')
+@stack('recentOrdersSlider')

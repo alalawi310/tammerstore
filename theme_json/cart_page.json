@@ -1,0 +1,38 @@
+{
+    "section_name": "Cart Page",
+    "section_slug": "cart_page",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": 1,
+    "section":{
+        "title":{
+            "lable" : "Title",
+            "slug" :  "cart_page_title",
+            "text" : "Your Cart",
+            "type" : "text",
+            "placeholder" : "Please enter here..."
+        },
+        "description":{
+            "lable" : "Description",
+            "slug" :  "cart_page_description",
+            "text" : " Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.Sed porttitor lectus nibh.",
+            "type" : "textarea",
+            "placeholder" : "Please enter here..."
+        },
+        "button":{
+            "lable" : "Button",
+            "slug" :  "cart_page_button",
+            "text" : "Back to Category",
+            "type" : "text",
+            "placeholder" : "Please enter here..."
+        },
+        "image":{
+            "lable" : "Image",
+            "slug" :  "cart_page_image",
+            "text" : null,
+            "image": null,
+            "type" : "file",
+            "placeholder" : "Please select file"
+        }
+    }
+}

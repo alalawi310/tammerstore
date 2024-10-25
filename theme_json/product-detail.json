@@ -1,0 +1,36 @@
+[
+    {
+        "section_name": "Product - Other Description",
+        "section_slug": "product-other-description",
+        "inner-list": [
+            {
+                "field_name": "Other Description",
+                "field_slug": "product-other-description-other-description",
+                "field_help_text": "Please add your description text here",
+                "field_default_text": "Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla quis lorem ut libero malesuada feugiat.",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "Other Description Image",
+                "field_slug": "product-other-description-other-description-image",
+                "field_help_text": "Upload image here",
+                "field_default_text": "Upload image here",
+                "field_type": "photo upload"
+            },
+            {
+                "field_name": "More informations",
+                "field_slug": "product-other-description-more-informations",
+                "field_help_text": "Please add your description text here",
+                "field_default_text": "Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla quis lorem ut libero malesuada feugiat.",
+                "field_type": "text area"
+            },
+            {
+                "field_name": "More information Image",
+                "field_slug": "product-other-description-more-information-image",
+                "field_help_text": "Upload image here",
+                "field_default_text": "Upload image here",
+                "field_type": "photo upload"
+            }
+        ]
+    }
+]

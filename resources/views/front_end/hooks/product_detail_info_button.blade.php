@@ -1,0 +1,2 @@
+@stack('addReviewButton')
+@stack('addWholesalepricingButton')
